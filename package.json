@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-nodejs-con-express-2",
+  "version": "1.0.0",
+  "description": "Primer servidor de nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos rojas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
