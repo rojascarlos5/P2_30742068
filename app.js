@@ -4,8 +4,7 @@ const app = express()
 
 app.get('/', function(req, res){
 
-    res.send('Curriculum Vitae (CV) proximamente', 
-    'En espera de repuesta por parte del "administrador" de la pagina')
+    res.send('Curriculum Vitae CV proximamente')
 })
 
 const PORT = process.env.PORT
