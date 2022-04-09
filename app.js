@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', function(req, res){
 
-    res.send('Hola mmgvo, mentira jajajaja')
+    res.send('Curriculum Vitae (CV) proximamente')
 })
 
 const PORT = process.env.PORT
