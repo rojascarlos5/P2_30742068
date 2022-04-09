@@ -4,8 +4,13 @@ const app = express()
 
 app.get('/', function(req, res){
 
-    res.send('Hola mmgvo')
+    res.send('Hola mmgvo, mentira jajajaja')
 })
 
-app.listen(3000)
+const PORT = process.env.PORT
+
+app.listen(PORT, function() {
+
+    console.log("Servidor escuchando en el puerto,", PORT)
+})
 
